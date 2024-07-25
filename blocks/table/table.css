@@ -1,6 +1,18 @@
 .table {
   width: 100%;
   overflow-x: auto;
+
+  
+  h3{
+    font-size: 24px;    
+  }
+  p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(125, 138, 158);
+    line-height: 20.8px;
+    letter-spacing: -0.01em;
+  }
 }
 
 .table table {
@@ -23,11 +35,36 @@
 }
 
 .table table thead tr {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  th{
+    width: 35%;
+  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(21, 39, 77);
+  border-radius: 40px 40px 0px 0px;
+  
+  
 }
 
 .table table tbody tr {
+  background-color: #f5f7f9;
+  color: #1c3466;
+  td{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  width: 100%;
+  min-height: 155px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid;
 }
 
