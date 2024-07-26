@@ -1,12 +1,13 @@
 .cards{
   background-color: #16203e;
-  display: flex;
+  display: grid;
   justify-content: space-between;
   margin-top: 50px;
   padding: 25px;
   width: 100%;
   height: auto;
   flex: direct;
+  border-radius: 40px;
   .cards-card-image{
     width: 100%;
     height: auto;
@@ -19,11 +20,13 @@
 .cards > ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: row;
   margin: 0;
   padding: 0;
+  width: 30%;
+  height: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  grid-template-columns: repeat(3, minmax(375px,3fr));
   grid-gap: 16px;
 }
 
